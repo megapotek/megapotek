@@ -117,7 +117,7 @@ var DataobatComponent = (function () {
     function DataobatComponent(http) {
         var _this = this;
         this.http = http;
-        this.http.get('./assets/data.json')
+        this.http.get('https://github.com/megapotek/megapotek/blob/master/assets/data.json')
             .map(function (response) { return response.json().screenshots; })
             .subscribe(function (res) { return _this.spaceScreens = res; });
     }
