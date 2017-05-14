@@ -1,2 +1,0 @@
-# megapotek
-source
